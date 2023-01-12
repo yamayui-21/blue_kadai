@@ -1,0 +1,168 @@
+/* CSS */
+
+html, body{
+	width: 100%; height: 100%;
+	background-color: whitesmoke;
+}
+
+.navbar-brand img{
+	width: 28px; height: auto;
+	margin: 0px 5px; padding: 0px;
+	border-radius: 14px;
+}
+
+#my_key{
+	
+	height: auto;
+	padding: 12rem 0px;
+	background-color: lightsteelblue;
+	background-image: url("../images/img_key.png");
+	background-position: center;
+	color: white;
+}
+
+#my_key h1{
+	margin: 1rem 0px;
+	font-size: 3rem;
+}
+
+#my_key p{
+	margin: 1rem 0px;
+	font-size: 1rem;
+}
+
+#my_portfolio{
+	text-align: center;
+}
+
+#my_portfolio{
+	width: 100%; height: auto;
+	padding: 6rem 0px;
+}
+
+#my_portfolio i{
+	font-size: 4.5rem;
+}
+
+#my_portfolio h3{
+	font-size: 2rem;
+}
+
+#my_portfolio p{
+	font-size: 1rem;
+}
+
+.img_showcase{
+	background-size: cover;
+	background-position: bottom;
+}
+
+.box_showcase{
+	padding: 6rem;
+}
+
+#my_about{
+	width: 100%; height: auto;
+	background-color: lightsteelblue;
+	background-image: url("../images/img_key.png");
+	background-position: center;
+	color: white;
+}
+
+#my_phone{
+	width: 50%;
+	height: 20vh;
+	background-color: antiquewhite;
+}
+
+#my_contact{
+	width: 100%; height: auto;
+}
+
+#my_contact i{
+	padding: 0.2rem;
+	font-size: 2rem;
+}
+
+.card {
+	margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+	background-color: transparent !important;
+	background-clip: border-box;
+    border: none !important;
+    border-radius: 0.25rem;
+}
+
+
+.img_phone{
+    width: 100%;
+    height: 30vw;
+    background-image: url(../images/img_phone.png);
+    background-position: center;
+    background-size: 100%;
+    /* background-color: gold; */
+    background-repeat: no-repeat;
+}
+.img_code{
+    width: 100%;
+    height: 30vw;
+    background-image: url(../images/img_code.png);
+    background-position: center;
+    background-size: 100%;
+    /* background-color: gold; */
+    background-repeat: no-repeat;
+}
+.img_computer{
+    width: 100%;
+    height: 30vw;
+    background-image: url(../images/img_computer.png);
+    background-position: center;
+    background-size: 100%;
+    /* background-color: gold; */
+    background-repeat: no-repeat;
+}
+
+
+
+.box {
+	margin-left:30px ;
+}
+
+.outer{
+	font-size: 1.7vw;
+	position: relative;
+}
+.inner{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	transform: translateY(-50%) translateX(-50%);
+}
+
+.row_gentei .row{
+    --bs-gutter-x: 0.01rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
+#my_about{
+	font-size: 1.7vw;
+
+}
+#my_about .row{
+ padding-top: 1.7vw ;
+}
+
+.icon-img i{
+	letter-spacing: 0.3em;
+	font-size: 3vw;
+}
